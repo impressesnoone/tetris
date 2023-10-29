@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="main">
+        <canvas id="canvas" width="400px" height="800px"></canvas>
+        <div id="tetrisMap"></div>
+    </div>
+    <div class="table">
+        <div class="score">score 0</div><br>
+        <div class="level">level 0</div><br>
+        <h1>Next figure</h1>
+            <div class="subtable">
+                <canvas id="nextFigure"width="160px" height="160px"></canvas>
+                <div id="mapNextFigure"></div>
+                <div class="button_hola" id="start"><span>start</span></div>
+            <div class="button_hola" id="stop"><span>&nbsp;stop</span></div>
+        </div>
+    </div>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
